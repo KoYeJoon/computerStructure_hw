@@ -1,0 +1,29 @@
+Wonkyo Choe (1):
+      Initial commit
+
+Yejoon Ko (1):
+      Delete main.c~
+
+yejoon Ko (7):
+      I wrote contribution.txt!
+      I add my file
+      I modified to simplify
+      little bit modify
+      It run all about -c input
+      I delete my mistake main.c~ which was my early file
+      Merge branch 'master' of http://sce212.ajou.ac.kr/201820742/project2
+build_Cache : I initialize the cache by nest and away.
+access_Cache :
+	I divided by 3 situation
+	if valid==1 && tag is correct, I check by flag. Because it is case of hit. And age goes to 0.
+	if valid==1 && tag is not correct, I divided 2 situation.
+	One is ways are full. The other is ways are not full.
+	cf)if the ways are full, and modified=1 write back++
+	if valid==0 , I push the data .
+	Read data get modified =0
+	Write data get modified=1
+	and last time, I add the age.
+Main	:
+	I set simCache s,E,b. And I calculate the index and tag.
+	and I divided R operation and W operation.
+
